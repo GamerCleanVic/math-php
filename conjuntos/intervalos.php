@@ -1,6 +1,6 @@
 <?php
 echo 'INTERVALO INCLUSO'.'<br />';
-$intervalo_incluso = [
+$meu_intervalo = [
 	"0" => -1,
 	"1" => 0,
 	"2" => 1,
@@ -9,4 +9,10 @@ $intervalo_incluso = [
 	"5" => 4,
 	"6" => 5
 ];
-var_dump($intervalo_incluso);
+$i = 0;
+foreach($meu_intervalo as $item){
+	echo "[$i] - ";
+	var_dump($item);
+	echo '<br />';
+	$i++;
+}
