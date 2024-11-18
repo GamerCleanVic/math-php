@@ -1,5 +1,6 @@
 <?php
+echo 'CONJUNTO VAZIO'.'<br />';
 $my_empty_set = [
-	"1" => null
+	"0" => $a
 ];
 var_dump($my_empty_set);
