@@ -11,7 +11,7 @@ echo "
 	}
 	hr{
 		border: solid 4px #ccc;
-		margin-top: 0;		
+		margin-top: 0;
 		margin-bottom: 1.2rem;
 	}
 	.my-header{
@@ -19,7 +19,7 @@ echo "
 		color: #ffbb99;
 		padding: 20px;
 		bottom: 0;
-		width: 100%;		
+		width: 100%;
 		text-align: center;
 	}
 	nav{
@@ -33,7 +33,10 @@ echo "
 		margin: 0 auto;
 	}
 	b{
-		color: green;
+		color: rgb(27, 197, 84);
+	}
+	i{
+		color: rgb(175, 89, 255);
 	}
 </style>
 
