@@ -1,2 +1,3 @@
 <?php
-require_once 'conjuntos/intervalos.php';
+require_once 'components/header.php';
+require_once 'functions/planoDeSaude.php';
